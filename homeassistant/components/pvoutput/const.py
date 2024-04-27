@@ -12,7 +12,7 @@ DOMAIN: Final = "pvoutput"
 PLATFORMS = [Platform.SENSOR]
 
 LOGGER = logging.getLogger(__package__)
-SCAN_INTERVAL = timedelta(minutes=2)
+SCAN_INTERVAL = timedelta(minutes=3)
 
 
 CONF_SYSTEM_ID = "system_id"
